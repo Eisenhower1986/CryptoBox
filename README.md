@@ -22,6 +22,7 @@ class CryptoBox:
             f.write(decrypted_data)
         os.remove(file_path)
 
+# 示例用法
 if __name__ == '__main__':
     crypto_box = CryptoBox()
     crypto_box.encrypt_file('example.txt')
